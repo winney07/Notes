@@ -1,4 +1,4 @@
-#### 创建项目
+### 创建项目
 
 ```
 hexo init notes
@@ -6,7 +6,7 @@ cd notes
 cnpm i
 ```
 
-#### 主题
+### 主题
 
 [hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)
 
@@ -26,7 +26,7 @@ rm -rf node_modules && cnpm install --force
 
 > 修改了项目目录名称，也是执行这句
 
-#### 部署到GitHub仓库
+### 部署到GitHub仓库
 
 ```
 echo "# notes" >> README.md
@@ -106,7 +106,7 @@ git push -u origin main
 
    4. 就可以访问https://notes.winney07.cn/
 
-#### 将项目源文件提交到GitHub
+### 将项目源文件提交到GitHub
 
 1. 创建`.git`目录
 
@@ -127,7 +127,7 @@ git push -u origin main
    ```
 
 4. ```
-   git commit -m 'notes源码'
+   git commit -m 'notes源文件'
    ```
 
 5. ```
