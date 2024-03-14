@@ -270,7 +270,7 @@ mark {
 }
 
 header .side-nav {
-    width: 240px;
+    width: 160px;
     z-index: 999;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -291,8 +291,9 @@ header nav .brand-span {
 
 header .brand-logo .logo-img {
     height: 45px;
-    vertical-align: middle;
-    padding-bottom: 6px;
+    vertical-align: text-top;
+    border-radius: 50%;
+    /* padding-bottom: 6px; */
 }
 
 header .brand-logo .logo-span {
@@ -309,7 +310,7 @@ header .button-collapse i {
 }
 
 header .side-nav .mobile-head {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 header .side-nav .mobile-head img {
@@ -351,7 +352,7 @@ header .side-nav .menu-list a {
 }
 
 header .side-nav .fa-fw {
-    width: 3.3rem;
+    width: 1.4rem;
     text-align: left;
 }
 
@@ -582,7 +583,8 @@ header .go-back i {
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+    font-size: 1rem;
     line-height: 1.4em;
     color: #eee;
 }
